@@ -8,14 +8,14 @@ agent any
         }
         stage('Build Code') {
             steps {
-                sh "chmod u+x Prog1.py"
-                sh "./Prog1.py"
+                sh "chmod u+x main.py"
+                sh "./main.py"
             }
         }
      stage('Test Code') {
             steps {
-                sh "chmod u+x Test.py"
-                sh "./Test.py"
+                sh "chmod u+x test.py"
+                sh "./test.py"
             }
         }
     } 
