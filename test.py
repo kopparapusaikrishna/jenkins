@@ -10,16 +10,16 @@ class TestSum(unittest.TestCase):
         Test case to add two numbers
         """
 
-        result1 = summation(12, 12)
+        result1 = equals(12, 12)
         self.assertEqual(result1, 1)
 
-        result2 = summation(13, 31)
+        result2 = equals(13, 31)
         self.assertEqual(result2, 0)
 
-        result3 = summation(1, 1)
+        result3 = equals(1, 1)
         self.assertEqual(result3, 1)
 
-        result4 = summation(12, 12)
+        result4 = equals(120, 120)
         self.assertEqual(result4, 1)
 
 
